@@ -10,4 +10,8 @@ contract blockchain {
   function sayHello() public view returns(string memory){
     return greetings;
   }
+
+  function updateGreetings(string memory _newGreetings) public{
+    greetings = _newGreetings;
+  }
 }
