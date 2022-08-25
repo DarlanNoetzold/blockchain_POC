@@ -1,3 +1,5 @@
-module.exports = function(_deployer) {
-  // Use deployer to state migration tasks.
+const blockchain = artifacts.require("blockchain");
+
+module.exports = async function(_deployer) {
+  await _deployer.deploy(blockchain);
 };
