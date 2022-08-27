@@ -6,3 +6,6 @@
 
 ## Projeto
 *  Uma POC de um dAPP para estudo e prática dos conceitos.
+
+---
+⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
